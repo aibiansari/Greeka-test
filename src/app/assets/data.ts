@@ -1,7 +1,7 @@
 export const cardData = [
   {
     id: 1,
-    imageSrc: "/info1.webp",
+    imageSrc: "./info1.webp",
     title: "Blue Star Ferries",
     rating: 5,
     customerCount: "1,342",
@@ -19,7 +19,7 @@ export const cardData = [
   },
   {
     id: 2,
-    imageSrc: "/info2.webp",
+    imageSrc: "./info2.webp",
     title: "Seajets",
     rating: 3,
     customerCount: "2,467",
@@ -37,7 +37,7 @@ export const cardData = [
   },
   {
     id: 3,
-    imageSrc: "/info3.webp",
+    imageSrc: "./info3.webp",
     title: "Anek-Superfast",
     rating: 3,
     customerCount: "667",
