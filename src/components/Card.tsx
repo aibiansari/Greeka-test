@@ -42,7 +42,7 @@ const Card: React.FC<CardProps> = ({
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 pt-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 pt-4 px-2">
         <div className="grid gap-2 text-sm">
           <div className="h-1/3 flex flex-col">
             <b>Operates in</b>
@@ -73,7 +73,7 @@ const Card: React.FC<CardProps> = ({
           </div>
         </div>
         <div className="flex items-start justify-center">
-          <p className="max-h-36 md:max-h-32 overflow-hidden text-sm">
+          <p className="max-h-36 text-justify md:max-h-32 text-sm overflow-hidden text-ellipsis line-clamp-4 md:line-clamp-5">
             {description}
           </p>
         </div>
